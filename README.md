@@ -6,3 +6,5 @@ This demonstrates that even though a hash table (a javascript object in this imp
 This video shows a similar reasoning for the extreme of comparing a vector to a linked list in C++: https://www.youtube.com/watch?v=YQs6IC-vgmo
 
 And this is the results I obtained running this on a Ryzen 9 5900X CPU (70MB of L2+L3 cache): https://imgur.com/gallery/FqinqLN
+
+This test was for arrays of up to one million elements, larger arrays will eventually make the hash version faster, but it's not very realistic to imagine you will be having to deal with larger arrays in their entirety for most situations.
