@@ -1,0 +1,17 @@
+{
+  "name": "array_test",
+  "version": "1.0.0",
+  "description": "A short comparison of different methods of comparing arrays",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "binary",
+    "search",
+    "map",
+    "hash"
+  ],
+  "author": "Felipe Libório",
+  "license": "MIT"
+}
