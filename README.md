@@ -11,7 +11,7 @@ This test was for arrays of up to five million elements, larger arrays will even
 
 It was also added a solution that uses a set, a more idiomatic and way faster solution to the problem, as a way to demonstrate that neither the array nor the manually created hash map solutions are the most appropriated to this problem.
 
-Results for 100 instances of 5 million elements: 
+Results for 100 instances of 5 million elements (Node.js version 18.5.0, 32 GB of RAM): 
 
   Init arrays for hash: 2:39.619 (m:ss.mmm)
 
