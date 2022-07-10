@@ -13,9 +13,14 @@ It was also added a solution that uses a set, a more idiomatic and way faster so
 
 Results for 100 instances of 5 million elements: 
 
-Init arrays for hash: 2:39.619 (m:ss.mmm)
+  Init arrays for hash: 2:39.619 (m:ss.mmm)
+
   Find intersections hash: 10:06.141 (m:ss.mmm)
+  
   Init arrays for BS: 2:37.875 (m:ss.mmm)
+  
   Find intersections BS: 3:03.814 (m:ss.mmm)
+  
   Init arrays for set: 2:35.992 (m:ss.mmm)
+  
   Find intersections set: 1:37.995 (m:ss.mmm)
