@@ -24,3 +24,6 @@ Results for 100 instances of 5 million elements (Node.js version 18.5.0, 32 GB o
   Init arrays for set: 2:35.992 (m:ss.mmm)
   
   Find intersections set: 1:37.995 (m:ss.mmm)
+  
+  
+  It's also important to note that larger keys translate to slower hashing performance, so, for example, even if a set of instances that had numbers with up to 9 digits was faster in the hash solution, it could very well be slower if the instance had numbers with up to 10 digits.
