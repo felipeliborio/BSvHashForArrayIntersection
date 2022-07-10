@@ -10,3 +10,12 @@ And this is the results I obtained running this on a Ryzen 9 5900X CPU (70MB of 
 This test was for arrays of up to one million elements, larger arrays will eventually make the hash version faster, but it's not very realistic to imagine you will be having to deal with larger arrays in their entirety for most situations.
 
 It was also added a solution that uses a set, a more idiomatic and way faster solution to the problem, as a way to demonstrate that neither the array nor the manually created hash map solutions are the most appropriated to this problem.
+
+Results for 100 instances of 5 million elements: 
+
+Init arrays for hash: 2:39.619 (m:ss.mmm)
+  Find intersections hash: 10:06.141 (m:ss.mmm)
+  Init arrays for BS: 2:37.875 (m:ss.mmm)
+  Find intersections BS: 3:03.814 (m:ss.mmm)
+  Init arrays for set: 2:35.992 (m:ss.mmm)
+  Find intersections set: 1:37.995 (m:ss.mmm)
