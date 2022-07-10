@@ -8,3 +8,5 @@ This video shows a similar reasoning for the extreme of comparing a vector to a 
 And this is the results I obtained running this on a Ryzen 9 5900X CPU (70MB of L2+L3 cache): https://imgur.com/gallery/FqinqLN
 
 This test was for arrays of up to one million elements, larger arrays will eventually make the hash version faster, but it's not very realistic to imagine you will be having to deal with larger arrays in their entirety for most situations.
+
+It was also added a solution that uses a set, a more idiomatic and way faster solution to the problem, as a way to demonstrate that neither the array or the manually created hash map solutions are the most appropriated to this problem.
